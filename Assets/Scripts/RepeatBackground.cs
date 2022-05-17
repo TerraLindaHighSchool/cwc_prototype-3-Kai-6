@@ -20,6 +20,5 @@ public class RepeatBackground : MonoBehaviour
         {
             transform.position = startPos;
         }
-        transform.Translate(Vector3.left * 10 * Time.deltaTime);
     }
 }
